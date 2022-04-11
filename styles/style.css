@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 .main-info {
-  background-image: url(/bg-beach.jpeg);
+  background-image: url(./../images/bg-beach.jpeg);
   background-size: cover;
   background-position: center;
   height: 100vh;
