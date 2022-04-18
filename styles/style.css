@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .main-info {
   background-image: url(./../images/bg-beach.jpeg);
@@ -8,16 +9,25 @@ body {
   height: 100vh;
   text-align: center;
   color: #926239;
-  font-size: 22px
+  font-size: 18px;
+  
 }
-
-
+.header-p-for-overflow {
+  margin: auto;
+  width: 800px;
+  overflow:hidden;
+  text-overflow: ellipsis;
+white-space: nowrap;
+}
+h1 {
+  font-size: 50px;
+}
 h1 , a {
   text-transform: capitalize;
 }
 .info {
-padding-top: 16em;
-padding-bottom: 30px;
+padding-top: 24%;
+padding-bottom: 20px;
 }
 #button:hover {
   background-color: #926239;
@@ -36,7 +46,7 @@ color: #926239;
 .bot-info1 {
 background-color: #926239;
 color: white;
-font-size: 20px;
+font-size: 17px;
 padding: 20px;
 margin-top: 0;
 
@@ -44,19 +54,18 @@ margin-top: 0;
 .bot-info2 {
   background-color: white;
   color: #926239;
-  font-size: 20px;
+  font-size: 17px;
   padding: 20px;
   margin-top: 0;
   }
 
   .bottom-info1 , .bottom-info2 , .bottom-info3 {
+    text-align: center;
     display: inline-block;
-    width: 32.57vw;
-    /* max-width: 477px;
-    min-width: 150px; */
+    width: 33.33%;
     box-sizing: content-box;
-    font-size: 20px;
-padding: 20px 5px;
+    font-size: 18px;
+padding: 20px 0;
 
   }
   .bottom-info1 , .bottom-info3 {
